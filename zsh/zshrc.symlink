@@ -103,5 +103,7 @@ export PATH=/usr/local/bin:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
+PROMPT='%{$fg[blue]%}%n%{$reset_color%} on %{$fg[red]%}%M%{$reset_color%} in %{$fg[blue]%}%~%b%{$reset_color%}$(git_time_since_commit)$(check_git_prompt_info)
+λ '
 
 
