@@ -106,4 +106,8 @@ source $ZSH/oh-my-zsh.sh
 PROMPT='%{$fg[blue]%}%n%{$reset_color%} on %{$fg[red]%}%M%{$reset_color%} in %{$fg[blue]%}%~%b%{$reset_color%}$(git_time_since_commit)$(check_git_prompt_info)
 λ '
 
-
+# docker stuff
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/thom/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+$(boot2docker shellinit)
