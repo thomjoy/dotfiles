@@ -96,8 +96,7 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 
 alias chromedev='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --disable-web-security'
 
-export FLEX_HOME='/Users/thom/flex_sdk_4'
-
+#export FLEX_HOME='/Users/thom/flex_sdk_4'
 export PATH=$PATH:/usr/local/sbin
 export PATH=/usr/local/bin:$PATH
 

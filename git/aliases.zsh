@@ -17,3 +17,8 @@ alias gco='git checkout'
 alias gcb='git copy-branch-name'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+
+alias logo = log --oneline --graph --all --decorate
+alias logg = log --graph --all --decorate
+alias logt = log --date-order --graph --tags --simplify-by-decoration --pretty=format:'%ai %h %C(Yellow)%d%Creset'
+alias ignored = ls-files --others -i --exclude-standard
